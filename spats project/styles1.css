@@ -1,0 +1,494 @@
+body {
+    width:100%;
+    padding:0px;
+    height:100%;
+    margin:0px;
+    background-color: rgb(27, 25, 25);
+    background-color: rgb(27, 25, 25);
+    color:white;
+
+}
+.s3{
+    font-size:1.2rem;
+    font-size: 900;
+   
+    display: inline-block;}
+
+.tag{
+    font-family:"Brush Script MT";
+    text-align: center;
+    width:40%;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin:auto;
+    box-sizing: border-box;
+    line-height: 1rem;
+    
+}
+.tag p{
+    padding:0px;
+    
+
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    background:rgb(0, 0, 0,0.8);
+    width:100%;
+    margin:0px;
+    height:100%;
+
+    }
+.logo{
+   
+    width:40%;
+
+}
+.logopic
+{   display:block;
+    height:50px; 
+    width:100px;
+    margin: 2px auto;
+}
+
+.list {
+    display:none;
+     top: 70%;
+  right:0%;
+  width: 120%;
+  height:auto;
+  position: absolute;
+  background:black;
+  min-width: 150px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-direction:column;
+    padding:20px;
+    
+    transition:display 0.3s ease;
+    border-radius: 10px;
+    border:2px solid #ff4d00;
+}
+nav div:hover ul{
+    display:block;
+}
+.menu:hover{
+    background-color:#ff4d00;
+}
+.menu:hover > a,.menu:hover .s3{
+    color:black;
+}
+nav div{
+    position: relative;
+    height:100%;
+    
+}
+.menu{
+    width:20%;
+}
+.menu > a{
+    display:block;
+    padding:5px 20px;
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    padding-top:16px;
+    height:100%;
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    color: #fa5102;
+    font-weight: 700;
+    margin-top: 20px;
+
+
+}
+.links{
+     transition:transform 0.3s ease;
+     text-align: center;
+     width:80%;
+     margin: auto;
+    
+}
+.links input{
+    width:60%;
+    background-color: rgb(53, 52, 52);
+     border:2px solid #fa5102;
+     margin-top:2px;
+     height:100%;
+     border-radius: 5px;
+
+}
+.links button{
+    background:#fa5102;
+    color:black;
+    border:2px solid #fa5102;
+    border-radius: 5px;
+    margin-left:2px;
+}
+.links:hover{
+     transform: scale(1.2);
+     background-color: #fa5102;
+     border-radius: 5px;
+    
+   
+}
+.links:hover a{
+    color: black;
+     
+}
+header{
+    padding:0px;
+    margin:0px;
+    position: sticky;
+    z-index:2;
+    top:0;
+    width:100%;
+    box-shadow:white;
+    height:54px;
+}
+main{
+    margin:0px;
+}
+.herobanner{
+
+    background-image:linear-gradient(to right,rgb(0,0,0,0.80),rgb(0,0,0,0.75) 50%,rgb(0,0,0,0.35),rgb(0,0,0,0.15)), url("./Images/sallarland.jpg");
+    margin:0px;
+    
+  /* Optional: Adjust other background properties */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+
+  /* Ensure the element has a defined size to display the background */
+    display:flex;
+    height:400px;
+}
+.poster img{
+    height:300px;
+    margin:-10px auto 0px;
+    border-radius:10px;
+    transition:transform 0.3s ease;
+    border:2px solid rgb(48, 48, 48);
+   
+}
+.poster img:hover{
+    transform:scale(1.05);}
+.poster{
+        padding:20px;
+}
+.poscon{
+    margin:10px;
+}
+.poscon h2{
+    font-size:3rem;
+    margin:-05px 0px 10px 0px;
+    padding:0px;
+    color:white;
+}
+.poscon h3{
+    font-size:1rem;
+    margin:-5px 0px;
+    color:white;
+}
+.poscon p{
+    margin:5px auto;
+    color:white;
+    width:90%;
+}
+.gener{
+    display:flex;
+    justify-content:start;
+    flex-wrap: wrap;
+    gap:5px 5px;
+}
+.gener li{
+    list-style-type:none;
+    color:rgb(240, 237, 237);
+    width:90px;
+
+}
+.gener div{
+    background:rgba(156, 153, 153, 0.7);
+    margin-left:0px;
+    border-radius:5px;
+    padding:5px;
+    width:100px;
+    height:1.5rem;
+    text-align: center;
+}
+.name ul{
+    display:flex;
+    justify-content:start;
+    padding:0px;
+}
+.name ul li{
+    margin-left:20px;
+    font-size:0.7rem;
+    font-weight:800;
+    margin:-10px 10px;
+     background:rgba(156, 153, 153, 0.8);
+     color:rgb(240, 237, 237,0.8);
+    border-radius:5px;
+    height:0.8rem;
+    padding:1px 3px;
+
+}
+.book{
+    background-color: #fa5102;
+    width:150px;
+    max-height:25px;
+    text-align:center;
+    border-radius:8px;
+    padding:5px;
+    
+    transition:transform 0.3s ease,background-color 0.3s ease;
+}
+.book:hover{
+    background-color:#ce5504;
+    transform: scale(1.05);
+}
+.book a{
+    color:black;
+    text-decoration:NONE;
+    margin:5px;
+    font-weight:900;
+    font-size:1.2rem;
+}
+.movies{
+    display:flex;
+    flex-wrap:wrap;
+    column-gap:10px;
+}
+.img1 {
+        height:300px;
+        width:200px;
+    border-radius:10px;
+    
+}
+.img2 {
+        height:300px;
+        width:200px;
+        border-radius:10px;
+}
+
+.img3 {
+        height:300px;
+        width:200px;
+        border-radius:10px;
+}
+.img4 {
+        height:300px;
+        width:200px;
+        border-radius:10px;
+}
+figure{
+    border-radius:px;
+    padding:0px;
+    flex-direction: column;
+    display:flex;
+    border-radius:10px;
+    padding:0 0 10px;
+    justify-content: space-between;
+    gap:5px;
+    text-align: left;
+}
+.fc1{
+    font-size:1.3rem;
+
+}
+.fc2{
+    font-size:0.9rem;
+    color:grey;
+}
+.upcoming{
+    margin:10px auto;
+}
+.upcoming h2{
+    font-size:2.5rem;
+    margin:20px;
+}
+figure{
+    width:200px;
+    margin:13px;
+    transition:transform 0.3s ease,background-color 0.3s ease;
+    background:rgb(39, 38, 38)
+}
+figure:hover{
+    background-color:rgb(73, 73, 73);
+    transform: scale(1.05);
+}
+.offers{
+
+    margin:10px auto;
+}
+.footer {
+    margin:0px auto;
+    text-align:center;
+    background:black;
+    color:white;
+    padding:20px;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+    }
+.footer a:hover{
+     color:#ff5e00;
+    text-shadow:0px 0px 5px  white;
+}
+.foflex{
+    display:flex;
+    justify-content: space-evenly;
+}
+.foflex h3{
+    color:#ff5e00;
+    font-size:1.3rem;
+    margin-bottom:10px auto 0px;
+    padding:0px;
+    
+}
+.foflex > div{
+    margin-bottom:15px;
+}
+footer{
+    border-top:2px solid rgb(246, 70, 5);
+    background:black;
+}
+hr{
+    border:1px solid rgb(244, 97, 5);
+}
+span{
+    color:#ff5e00;
+    font-size:3rem;
+}
+.f{
+    margin:auto;
+}
+.offers{
+    width:inherit;
+    padding:20px;
+    height:auto;
+}
+.offers h2{
+    font-size:2.5rem;
+}
+.s2{
+    font-size:1.2rem;
+    font-weight: 900;
+}
+
+.ob{
+    background-image:radial-gradient(
+    circle farthest-corner at top left ,
+    rgb(249, 94, 4) 0%,     /* Red starts at 0% */
+    rgb(245, 150, 50) 50%,    /* Red ends at 50% (sharp stop) */
+    rgb(255, 136, 0) 50%,   /* Blue starts at 50% (sharp stop) */
+    rgb(255, 77, 0) 100%   /* Blue ends at 100% */
+  );
+    border-radius:10px;
+    height:110px;
+    padding:10px;
+    margin:10px auto;
+    width:85%;
+    transition: transform 0.3s ease,background-image 0.3s ease;
+    height:auto;
+
+}
+.ob:hover{
+    transform:scale(1.05);
+        background-image:radial-gradient(
+    circle farthest-corner at top left ,
+    rgb(174, 75, 4) 0%,     /* Red starts at 0% */
+    rgb(199, 123, 40) 50%,    /* Red ends at 50% (sharp stop) */
+    rgb(192, 100, 2) 50%,   /* Blue starts at 50% (sharp stop) */
+    rgb(192, 100, 2) 100%   /* Blue ends at 100% */
+  );
+
+}
+.ob h3{
+    font-size:2rem;
+    margin:0px;
+}
+.ob2{
+    display:flex;
+    justify-content: space-between;
+}
+.ob2 div{
+    background:rgb(237, 235, 235);
+    color:black;
+    border-radius:15px;
+    width:90px;
+    height:1.5rem;
+    text-align:center;
+    padding:4px 0px 0px;
+}
+.ob .dim{
+    color:rgb(203, 201, 201);
+    font-size:0.8rem;
+}
+@media screen and (max-width:680px){
+    .poster{
+        display:none;
+    }
+    .herobanner{
+        background-position: right;
+    }
+    .menu{
+        width:30%;
+    }
+    .tag{
+        display: none;
+    }
+    .gener{
+        margin-left:-30px;
+    }
+    .poscon p{
+        margin-left:10px;
+        width:300px;
+        font-size:0.8rem;
+    }
+    .movies{
+        flex-direction: column;
+    }
+    figure{
+        width:80%;
+        margin: 10px auto;
+        height:500px;
+    }
+    .img1,.img2,.img3,.img4 {
+        height:400px;
+        width:100%;
+    border-radius:10px;
+    }
+    .gener div{
+       
+        width:70px;
+        padding:2px;
+        text-align:center;
+        height:auto;
+        overflow-wrap: break-word;
+    }
+    .gener li{
+             font-size:0.9rem;
+             width:60px;
+    }
+}
+@media  screen and (min-width:1024px) {
+    .ob{
+        display: inline-block;
+        width:400px;
+        margin-left:10px;
+    }
+    .herobanner{
+        height:600px;
+    }
+    .poscon p{
+        margin-left:10px;
+        width:500px;
+    }
+    
+}
+
