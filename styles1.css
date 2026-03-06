@@ -159,7 +159,7 @@ main{
 }
 .herobanner{
 
-    background-image:linear-gradient(to right,rgb(0,0,0,0.80),rgb(0,0,0,0.75) 50%,rgb(0,0,0,0.35),rgb(0,0,0,0.15)), url("./Images/sallarland.jpg");
+    background-image:linear-gradient(to right,rgb(0,0,0,0.80),rgb(0,0,0,0.75) 50%,rgb(0,0,0,0.35),rgb(0,0,0,0.15)), url("./images/sallarland.jpg");
     margin:0px;
     
   /* Optional: Adjust other background properties */
@@ -496,4 +496,5 @@ span{
     }
     
 }
+
 
